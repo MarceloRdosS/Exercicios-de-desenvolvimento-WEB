@@ -29,7 +29,6 @@ p {
 .caixa5,
 .caixa6 {
 	position: relative;
-	border: 1px solid red;
 	height: 100%;
 	opacity: 0.7;
 }
