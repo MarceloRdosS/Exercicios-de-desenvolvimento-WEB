@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<title>Animação</title>
+		<style>
+			@keyframes animacao {
+				from {
+					top: 0;
+					right: 0;
+					width: 300px;
+					height: 300px;
+					background-color: green;
+				}
+				to {
+					top: 100px;
+					right: 100px;
+					width: 300px;
+					height: 300px;
+					background-color: red;
+					border-radius: 20px;
+				}
+			}
+			#caixa1 {
+				position: relative;
+				width: 300px;
+				height: 300px;
+				background-color: green;
+				animation: animacao 5s 2s 2 alternate;
+				-webkit-animation: animacao 5s 2s 2 alternate;
+				-moz-animation: animacao 5s 2s 2 alternate;
+				-o-animation: animacao 5s 2s 2 alternate;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="caixa1"></div>
+		<form action="">
+			<label for="nome"><input type="text" name="nome" id="nome" /></label>
+			<input type="url" name="" id="" />
+			<input type="range" name="" id="" />
+			<input type="submit" value="Enviar" />
+		</form>
+	</body>
+</html>

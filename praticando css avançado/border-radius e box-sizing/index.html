@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Border Radius e Box Sizing</title>
+		<style>
+			#caixa1 {
+				height: 300px;
+				width: 300px;
+				padding: 50px;
+				margin: 25px;
+				background: green;
+				border-radius: 25px;
+				-webkit-border-radius: 25px;
+				-moz-border-radius: 25px;
+			}
+			#caixa2 {
+				height: 300px;
+				width: 300px;
+				padding: 50px;
+				margin: 25px;
+				box-sizing: border-box;
+				background: yellow;
+			}
+			#caixa3 {
+				height: 300px;
+				width: 300px;
+				margin: 25px;
+				padding: 50px;
+				background: yellowgreen;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="caixa1">
+			<h1>Testanto border-radius</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+				placeat est facere aperiam voluptatum praesentium dolor architecto sint?
+				Ut, veniam.
+			</p>
+		</div>
+		<div id="caixa2">
+			<h1>Testando box-sizing 1</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+				placeat est facere aperiam voluptatum praesentium dolor architecto sint?
+				Ut, veniam.
+			</p>
+		</div>
+		<div id="caixa3">
+			<h1>Testando box-sizing 2</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+				placeat est facere aperiam voluptatum praesentium dolor architecto sint?
+				Ut, veniam.
+			</p>
+		</div>
+	</body>
+</html>
